@@ -1,6 +1,5 @@
 
-# Name
-CsiWorld
+# CSI World
 
 ## Description
 Text Adventure/Interactive Crime Story. You can be a dectective and be able to solve a crime. There are three endings and they will differ due to your choices in the story. 
