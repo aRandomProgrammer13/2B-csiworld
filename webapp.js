@@ -36,7 +36,7 @@ function next(x) {
 
 	case 3: 
 		document.getElementById("title").innerHTML= "Going Home";	
-		document.getElementById("storyline").innerHTML= "You wipe the gun with your jacket and put it in your purse and suddenly fell very tired.";
+		document.getElementById("storyline").innerHTML= "You wipe the silver gun with your jacket and put it in your purse and suddenly fell very tired after a long, eventful night.";
 		document.getElementById("remind").innerHTML = "Let's get some rest and go to the dectective office tomorrow.";
 		document.getElementById("buttons").innerHTML = "<input type='button' onClick='next(5)' value='Go to detective office to search for files and more evidence'>";
 		document.getElementById("image").innerHTML= "<img src='images/purse.jpg' alt= 'test' width= '455'>";
@@ -51,10 +51,7 @@ function next(x) {
 		break;
 	case 5: 
 	document.getElementById("title").innerHTML = "The Finding of the Fingerprints";
-
-	document.getElementById("storyline").innerHTML= "You head back to your apartment and fall asleep as soon as your head hit the pillow. The next day, you wake up and go to your office to tell your colleagues and boss, Dectective Patty, what you saw last night. You then remember the gun you had kept in your purse and give it to the boss. You hand the gun over, asking her to dust for fingerprints of the shooter. She is delighted to know that you have the most valuable evidence in your possession. She explains that the fingerprint will lead right to the killer.";
 	document.getElementById("storyline").innerHTML= "You go back to your apartment and immediately fall asleep. The next day, you wake up and go to your office to tell your colleagues and boss, Detective Patty, what you saw last night. You then remember the gun you had kept in your purse and give it to the boss. You hand the gun over, asking her to dust it for fingerprints of the shooter. She is delighted to know that you have the most valuable evidence in your possession. She explains that the fingerprint will lead right to the killer.";
-
 		document.getElementById("remind").innerHTML = "Do you want to help Patty?";
 		document.getElementById("buttons").innerHTML = "<input type='button' onClick='next(6)' value='Yes!'> <input type='button' onClick='next(6)' value='No... You have other things to do.'>";
 		document.getElementById("image").innerHTML="<img src='images/fingerprint.jpg' alt='test' width='455'>";
@@ -87,7 +84,7 @@ function next(x) {
 	document.getElementById("storyline").innerHTML= "You suggest that the shooter would be Hayley Smith's enemies or competition. Joe agrees and pulls out files and searches the internet for Hayley's enemies with red hair. He finds a list of people that match the description. There are three matches:";
 		document.getElementById("remind").innerHTML = "Who do you want to investigate?";
 		document.getElementById("buttons").innerHTML = "<input type='button' onClick='next(10)' value='Susan Johnson'> <input type='button' onClick='next(11)' value='Katie Rose'> <input type='button' onClick= 'next(12)' value='Regina Wright'>";
-		document.getElementById("image").innerHTML="<img src='images/susanJohnson.jpg' alt='test' width='300'><img src='images/katieRose.jpg' alt='test' width='300'><img src='images/reginaWright.jpg' alt='test' width='300'>"; 
+		document.getElementById("image").innerHTML="<img src='images/susanJohnson.jpg' alt='test' width='250'><img src='images/katieRose.jpg' alt='test' width='250'><img src='images/reginaWright.jpg' alt='test' width='250'>"; 
 		break;
 	//suspects
 	case 10:
